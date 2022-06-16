@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    padding: 20px;
+    font-weight: 400;
+    color: rgb(31, 30, 30);
+}
+
+.nav img {
+    width: 30px;
+    padding: 5px;
+
+}
+
+.card a {
+    font-weight: lighter;
+    color: rgb(92, 79, 79);
+    letter-spacing: normal;
+
+}
+
+.card-img {
+    width: 190px;
+    border-radius: 5%;
+}
+
+.card {
+    display: flex;
+    margin: 30px 60px;
+    height: fit-content;
+
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.card-place {
+    margin: 30px 0px;
+    font-weight: 700;
+}
+
+.card-date {
+    margin: 10px 0;
+}
+
+.card-country {
+    font-weight: 400;
+    letter-spacing: 0.17em;
+}
+
+.card-country a {}
+
+.card-country img {
+    width: 10px;
+}
+
+.card-list {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* for mobile screens */
+@media only screen and (max-width: 700px) {
+    .card {
+        height: fit-content;
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .card-place {
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .card-info {
+        padding: 10px;
+    }
+
+    .card-info a {
+        font-size: 8px;
+    }
+
+    .card-img {
+        width: 150px;
+        height: 190px;
+    }
+
+    .card-date {
+        margin: 5px;
+    }
+}
